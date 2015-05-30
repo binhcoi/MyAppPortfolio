@@ -1,7 +1,7 @@
 package com.nanodegree.binh.myappportfolio;
 
 import android.content.Context;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +42,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void displayMessage(View view){
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch " + ((Button)view).getText().toString();
+        CharSequence text = "This button will probably launch " + ((Button)view).getText().toString();
         Toast toast = Toast.makeText(context,text,Toast.LENGTH_SHORT);
         toast.show();
     }
