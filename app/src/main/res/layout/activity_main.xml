@@ -9,8 +9,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Spotify Streamer"
-        android:id="@+id/buttonApp0"
+        android:text="@string/spotify_streamer_app_name"
+        android:id="@+id/spotify_streamer_button_id"
         android:layout_marginTop="101dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
@@ -21,9 +21,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Scores App"
-        android:id="@+id/buttonApp1"
-        android:layout_below="@+id/buttonApp0"
+        android:text="@string/scores_app_name"
+        android:id="@+id/scores_app_button_id"
+        android:layout_below="@+id/spotify_streamer_button_id"
         android:layout_centerHorizontal="true"
         android:clickable="true"
         android:onClick="displayMessage" />
@@ -31,9 +31,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Library App"
-        android:id="@+id/buttonApp2"
-        android:layout_below="@+id/buttonApp1"
+        android:text="@string/library_app_name"
+        android:id="@+id/library_app_button_id"
+        android:layout_below="@+id/scores_app_button_id"
         android:layout_centerHorizontal="true"
         android:clickable="true"
         android:onClick="displayMessage" />
@@ -41,9 +41,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Build It Bigger"
-        android:id="@+id/buttonApp3"
-        android:layout_below="@+id/buttonApp2"
+        android:text="@string/build_it_bigger_app_name"
+        android:id="@+id/build_it_bigger_button_id"
+        android:layout_below="@+id/library_app_button_id"
         android:layout_centerHorizontal="true"
         android:clickable="true"
         android:onClick="displayMessage" />
@@ -51,9 +51,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="XYZ Reader"
-        android:id="@+id/buttonApp4"
-        android:layout_below="@+id/buttonApp3"
+        android:text="@string/xyz_reader_name"
+        android:id="@+id/xyz_reader_button_id"
+        android:layout_below="@+id/build_it_bigger_button_id"
         android:layout_centerHorizontal="true"
         android:clickable="true"
         android:onClick="displayMessage" />
@@ -61,9 +61,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Capstone"
-        android:id="@+id/buttonApp5"
-        android:layout_below="@+id/buttonApp4"
+        android:text="@string/capstone_app_name"
+        android:id="@+id/capstone_app_button_id"
+        android:layout_below="@+id/xyz_reader_button_id"
         android:layout_centerHorizontal="true"
         android:clickable="true"
         android:textStyle="bold"
